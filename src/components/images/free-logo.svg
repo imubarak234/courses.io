@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Layer1">
+        <rect x="-1028.23" y="-248.288" width="1712.17" height="4055.19" style="fill:#3d4345;"/>
+        <rect x="-13.101" y="-13.059" width="626.202" height="426.201" style="fill:url(#_Radial1);"/>
+        <g id="CorelEMF" serif:id="CorelEMF">
+        </g>
+        <g id="CorelEMF1" serif:id="CorelEMF">
+        </g>
+        <g>
+            <g id="CorelEMF2" serif:id="CorelEMF">
+            </g>
+        </g>
+        <g id="CorelEMF3" serif:id="CorelEMF">
+        </g>
+        <g id="CorelEMF4" serif:id="CorelEMF">
+        </g>
+        <path d="M193.234,261.683L193.234,138.4L314.098,185.244L300,230.862L246.617,200.041L226.452,200.041L226.452,230.862L219.925,277.093L193.234,261.683Z" style="fill:#600;"/>
+        <path d="M406.766,261.683L406.766,138.4L340.329,161.515L300,190.443L300,230.862L353.383,200.041L380.075,277.093L406.766,261.683Z" style="fill:#f00;"/>
+        <path d="M219.925,246.272L313.346,284.798L300,323.324L219.925,277.093L219.925,246.272Z" style="fill:#535353;"/>
+        <path d="M380.075,246.272L332.715,261.683L300,292.503L300,323.324L380.075,277.093L380.075,246.272Z" style="fill:#b8b8b8;"/>
+        <path d="M246.617,230.862L246.617,200.041L219.925,184.631L219.925,246.272L234.506,246.272L246.617,230.862Z" style="fill:#f00;"/>
+        <path d="M353.383,230.862L353.383,200.041L380.075,184.631L380.075,246.272L358.583,246.272L353.383,230.862Z" style="fill:#600;"/>
+        <path d="M193.234,138.4L219.925,122.989L240.95,127.623L273.308,153.81L300,169.221L326.692,153.81L330.939,138.4L353.383,138.4L357.131,122.632L380.075,122.989L406.766,138.4L300,200.041L193.234,138.4Z" style="fill:#ff5252;"/>
+        <path d="M380.075,122.989L300,76.758L219.925,122.989L246.617,138.4L300,107.579L353.383,138.4L380.075,122.989Z" style="fill:#dadada;"/>
+        <path d="M273.308,153.81L300,138.4L300,107.579L246.617,138.4L273.308,153.81" style="fill:#b8b8b8;"/>
+        <path d="M326.692,153.81L300,138.4L300,107.579L353.383,138.4L326.692,153.81" style="fill:#535353;"/>
+        <path d="M246.617,230.862L300,261.683L353.383,230.862L380.075,246.272L300,292.503L219.925,246.272L246.617,230.862Z" style="fill:#dadada;"/>
+    </g>
+    <defs>
+        <radialGradient id="_Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.19595e-14,-366.128,358.626,2.24189e-14,300,200.041)"><stop offset="0" style="stop-color:#fff;stop-opacity:1"/><stop offset="1" style="stop-color:#eee;stop-opacity:1"/></radialGradient>
+    </defs>
+</svg>
