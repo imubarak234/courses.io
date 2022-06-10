@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './nav.css';
 
 const Mobile = () => (
   <nav className="navbar navbar-light bg-light">
