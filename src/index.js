@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import Navbar from './components/Menu/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode />,
+  <React.StrictMode>
+    <Router>
+      <Navbar />
+      <Routes />
+    </Router>
+  </React.StrictMode>,
 );
