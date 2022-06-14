@@ -16,19 +16,19 @@ const Navbar = () => (
           <NavLink className="nav-link" to="/login">Login</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" to="/Register">Register</NavLink>
+          <NavLink className="nav-link" to="/Register">Registoter</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" href="#">Link</NavLink>
+          <NavLink className="nav-link" to="#">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" href="#">Link</NavLink>
+          <NavLink className="nav-link" to="#">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" href="#">Link</NavLink>
+          <NavLink className="nav-link" to="#">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</NavLink>
+          <NavLink className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</NavLink>
         </li>
       </ul>
     </nav>
