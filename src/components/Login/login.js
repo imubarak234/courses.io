@@ -2,22 +2,23 @@ import React from 'react';
 import Navbar from '../Menu/Navbar';
 
 const Login = () => (
-  <div className="d-flex">
+  <div className="d-flex h-100">
     <Navbar />
 
-    <div className="d-flex flex-column align-items-center login">
-      <div className="d-flex flex-column justify-content-center m-3">
+    <div className="d-flex flex-column align-items-center" id="second-half">
+      <div className="d-flex flex-column justify-content-center m-3 form-title">
         <h2 className="h1 p-3">Login Form</h2>
+        <span />
       </div>
       <form className="auth_form row g-3 needs-validation p-3 border" id="login_id" noValidate>
         <div className="col-md-12">
           <label htmlFor="validationCustomUsername" className="form-label w-100 p-3">
-            Username
+            Email
             <div className="input-group has-validation">
               <span className="input-group-text" id="inputGroupPrepend">@</span>
-              <input type="text" className="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
+              <input type="email" className="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
               <div className="invalid-feedback">
-                Please Enter a username.
+                Please Enter a Email.
               </div>
             </div>
           </label>

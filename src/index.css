@@ -23,3 +23,41 @@ html {
   height: 100%;
   background-color: aliceblue;
 }
+
+.reg-button {
+  background-color: #96bf02;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+  padding: 0.8rem 1em;
+  border-radius: 10px;
+  margin-left: 1rem;
+  border: none;
+}
+
+.reg-button:hover {
+  background-color: #bee923;
+  color: #fff;
+}
+
+.auth_form {
+  width: 50%;
+}
+
+#second-half {
+  width: 88%;
+  padding-top: 3em;
+  background-color: rgb(251 249 249);
+}
+
+#second-half form {
+  margin-top: 2em;
+  border-radius: 1.5em;
+  color: black;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+#second-half .form-title span {
+  border-bottom: 3.5px solid black;
+}

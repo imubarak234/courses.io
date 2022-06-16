@@ -1,34 +1,35 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
+import logo from '../images/free-logo-removebg-preview.png';
 
 const Navbar = () => (
   <div className="h-100" id="side-bar">
-    <nav className="h-100 py-4 d-flex flex-column">
-      <NavLink className="navbar-brand fw-normal pb-4" to="/">
-        <img src="/images/free-logo-removebg-preview.png" alt="..." className="w-100" />
+    <nav className="h-100 py-4 d-flex flex-column ms-3">
+      <NavLink className="navbar-brand fw-normal pb-4 w-100" to="/">
+        <img src={logo} alt="..." className="w-100" />
       </NavLink>
-      <ul className="nav nav-pills nav-fill flex-column ms-3">
+      <ul className="nav nav-pills nav-fill flex-column">
         <li className="nav-item pt-3 pb-2">
-          <NavLink className="nav-link active" aria-current="page" to="/">Courses</NavLink>
+          <NavLink className="nav-link" to="/courses">Courses</NavLink>
         </li>
         <li className="nav-item pb-2">
           <NavLink className="nav-link" to="/login">Login</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" to="/Register">Registoter</NavLink>
+          <NavLink className="nav-link" to="/register">Register</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" to="#">Link</NavLink>
+          <NavLink className="nav-link" to="/link">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" to="#">Link</NavLink>
+          <NavLink className="nav-link" to="/link">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link" to="#">Link</NavLink>
+          <NavLink className="nav-link" to="/link">Link</NavLink>
         </li>
         <li className="nav-item pb-2">
-          <NavLink className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</NavLink>
+          <NavLink className="nav-link disabled" to="/link" tabIndex="-1" aria-disabled="true">Disabled</NavLink>
         </li>
       </ul>
     </nav>

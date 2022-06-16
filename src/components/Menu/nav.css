@@ -1,9 +1,6 @@
 #side-bar {
-  width: 12%;
-}
-
-#second-half {
-  width: 88%;
+  width: 20%;
+  background-color: rgb(251 249 249);
 }
 
 #side-bar nav ul a {
@@ -32,4 +29,22 @@ nav a {
 
 nav button img {
   width: 65%;
+}
+
+#side-bar nav {
+  width: 75%;
+  border-right: 1px solid #e5e5e5;
+  background-color: white;
+}
+
+#side-bar nav ul a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  width: 100%;
 }
