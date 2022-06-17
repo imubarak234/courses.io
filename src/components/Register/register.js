@@ -6,11 +6,11 @@ const Register = () => (
     <Navbar />
 
     <div className="d-flex flex-column align-items-center" id="second-half">
-      <div className="d-flex justify-content-center p-3">
-        <h2 className="h1">Registration Form</h2>
+      <div className="d-flex flex-column justify-content-center p-2 reg-title">
+        <h2 className="h1 pb-3">Registration Form</h2>
         <span />
       </div>
-      <form className="auth_form_reg row g-3 needs-validation p-3 border" id="reg_id" noValidate>
+      <form className="auth_form_reg row needs-validation p-1 border" id="reg_id" noValidate>
         <div className="col-sm-12">
           <label htmlFor="validationCustom01" className="form-label w-100 p-3">
             Full name
@@ -51,7 +51,7 @@ const Register = () => (
           </label>
         </div>
 
-        <div className="col-12">
+        <div className="col-12 mb-2">
           <button className="reg-button" type="submit">Submit form</button>
         </div>
       </form>
