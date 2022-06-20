@@ -11,3 +11,22 @@
   width: 10vw;
   height: 10vh;
 }
+
+#second-half-courses .carousel-control-prev,
+#second-half-courses .carousel-control-next {
+  background-color: #96bf02;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#second-half-courses .carousel-control-next-icon,
+#second-half-courses .carousel-control-prev-icon {
+  color: white;
+}
+
+#second-half-courses .carousel-indicators{
+  display: none;
+}
