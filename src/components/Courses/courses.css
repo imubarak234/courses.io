@@ -1,5 +1,13 @@
-#carouselExampleIndicators {
+#second-half-courses {
   width: 88%;
   padding-top: 3em;
-  background-color: rgb(251 249 249);
+}
+
+#second-half-courses .card {
+  border: none;
+} 
+
+#second-half-courses .card-image {
+  width: 10vw;
+  height: 10vh;
 }
