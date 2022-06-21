@@ -318,6 +318,10 @@ const Courses = () => (
       </Carousel.Item>
     </Carousel> */}
     <div id="second-half-courses" className="container">
+      <div className="d-flex flex-column justify-content-center m-3 form-title">
+        <h2 className="h1 p-3">Course List</h2>
+        <span />
+      </div>
       <Carousel variant="dark">
         <Carousel.Item>
           <div className="row g-4">
@@ -337,7 +341,6 @@ const Courses = () => (
                     <p className="card-text lang">React & Redux</p>
                     <p className="card-text lang">html-css-javascript</p>
                   </div>
-                  <a href="https://github.com/imubarak234/Book-a-class" target="_blank" rel="noopener noreferrer" className="btn btn-lg project-button">See Project</a>
                 </div>
               </div>
             </div>
@@ -357,7 +360,6 @@ const Courses = () => (
                     <p className="card-text lang">bootstrap</p>
                     <p className="card-text lang">html-css-javascript</p>
                   </div>
-                  <a href="https://safe-thicket-25090.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-lg project-button">See Project</a>
                 </div>
               </div>
             </div>
@@ -470,7 +472,7 @@ const Courses = () => (
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card  bg-body rounded">
+              <div className="card bg-body rounded">
                 <div className="card-image">
                   <img src={require('../images/undraw_Predictive_analytics_re_wxt8.png')} alt="" className="img-fluid card-img-top" />
                 </div>

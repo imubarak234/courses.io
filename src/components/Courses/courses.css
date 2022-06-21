@@ -5,11 +5,28 @@
 
 #second-half-courses .card {
   border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
 } 
 
+#second-half-courses .card h4 {
+  text-align: center;
+}
+
+#second-half-courses .card p {
+  text-align: center;
+}
+
 #second-half-courses .card-image {
-  width: 10vw;
-  height: 10vh;
+  width:  240px;
+  height: 210px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
 }
 
 #second-half-courses .carousel-control-prev,
