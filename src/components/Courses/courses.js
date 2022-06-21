@@ -16,9 +16,10 @@ const Courses = () => (
     <Navbar />
 
     <div id="second-half-courses" className="container">
-      <div className="d-flex flex-column justify-content-center m-3 slide-title">
-        <h2 className="h1 p-3">Course List</h2>
-        <h4>Please take a pick</h4>
+      <div className="d-flex flex-column justify-content-center align-items-center m-3 slide-title border">
+        <h2 className="h1">Course List</h2>
+        <p>Please take a pick</p>
+        <p>*********************</p>
         <span />
       </div>
       <Carousel variant="dark">
