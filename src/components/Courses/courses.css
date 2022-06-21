@@ -9,24 +9,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
 } 
 
 #second-half-courses .card h4 {
   text-align: center;
+  font-size: 1.25em;
 }
 
 #second-half-courses .card p {
   text-align: center;
+  font-size: 0.8em;
+}
+
+#second-half-courses .socials {
+  justify-content: space-around;
+  align-items: center;
+  height: 2.5em;
+  width: 80%;
+}
+
+#second-half-courses .socials img {
+  width: 8%;
 }
 
 #second-half-courses .card-image {
-  width:  240px;
-  height: 210px;
+  width:  270px;
+  height: 230px;
   object-fit: cover;
   display: flex;
   justify-content: center;
-  border: 2px solid black;
 }
 
 #second-half-courses .carousel-control-prev,
@@ -46,4 +57,13 @@
 
 #second-half-courses .carousel-indicators{
   display: none;
+}
+
+#second-half-courses .row {
+  width: 80%;
+}
+
+#second-half-courses .slides-inner {
+  display: flex;
+  justify-content: center;
 }
