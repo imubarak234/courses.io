@@ -1,6 +1,6 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import logger from "redux-logger";
-import coursesSelectReducer from "./courses/coursesSelect";
+import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
+import coursesSelectReducer from './courses/coursesSelect';
 
 const store = configureStore({
   reducer: {
