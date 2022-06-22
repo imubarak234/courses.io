@@ -10,7 +10,7 @@ const Login = () => (
         <h2 className="h1 p-3">Login Form</h2>
         <span />
       </div>
-      <form className="auth_form row g-3 needs-validation p-3 border" id="login_id" noValidate>
+      <form className="auth_form row g-3 needs-validation border shadow-lg p-3 mb-5 bg-body rounded" id="login_id" noValidate>
         <div className="col-md-12">
           <label htmlFor="validationCustomUsername" className="form-label w-100 p-3">
             Email

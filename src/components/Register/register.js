@@ -10,7 +10,7 @@ const Register = () => (
         <h2 className="h1 pb-3">Registration Form</h2>
         <span />
       </div>
-      <form className="auth_form_reg row needs-validation p-1 border" id="reg_id" noValidate>
+      <form className="auth_form_reg row needs-validation shadow-lg p-3 mb-5 bg-body rounded border" id="reg_id" noValidate>
         <div className="col-sm-12">
           <label htmlFor="validationCustom01" className="form-label w-100 p-3">
             Full name
