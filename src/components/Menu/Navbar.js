@@ -11,7 +11,7 @@ const Navbar = () => (
       </NavLink>
       <ul className="nav nav-pills nav-fill flex-column">
         <li className="nav-item pt-3 pb-2">
-          <NavLink className="nav-link" to="/courses">Courses</NavLink>
+          <NavLink className="nav-link" to="/">Courses</NavLink>
         </li>
         <li className="nav-item pb-2">
           <NavLink className="nav-link" to="/login">Login</NavLink>

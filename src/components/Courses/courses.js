@@ -16,9 +16,9 @@ const Courses = () => (
     <Navbar />
 
     <div id="second-half-courses" className="container">
-      <div className="d-flex flex-column justify-content-center align-items-center m-3 slide-title border">
-        <h2 className="h1">Course List</h2>
-        <p>Please take a pick</p>
+      <div className="d-flex flex-column justify-content-center align-items-center m-3 slide-title">
+        <h2 className="h1 text-uppercase fw-bold">Course List</h2>
+        <p>Take a pick to get started</p>
         <p>*********************</p>
         <span />
       </div>
@@ -33,6 +33,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Book A Class</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -53,6 +54,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Budget-app</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -73,6 +75,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">MazeFlix</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -99,6 +102,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Book A Class</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -119,6 +123,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Budget-app</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -139,6 +144,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">MazeFlix</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -165,6 +171,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Book A Class</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -185,6 +192,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Budget-app</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -205,6 +213,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">MazeFlix</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -231,6 +240,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Book A Class</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -251,6 +261,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">Budget-app</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
@@ -271,6 +282,7 @@ const Courses = () => (
                   </div>
                   <div className="card-body d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title">MazeFlix</h4>
+                    <p>*********************</p>
                     <p className="card-text">
                       The book a course app is a web application that works like an online school.
                       As a new user you register and gain access to our list of courses.
