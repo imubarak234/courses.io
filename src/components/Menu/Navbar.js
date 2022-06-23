@@ -2,6 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
 import logo from '../images/free-logo-removebg-preview.png';
+import facebook from '../images/facebook.svg';
+import twitter from '../images/twitter.svg';
+import messenger from '../images/messenger.svg';
+import whatsapp from '../images/whatsapp.svg';
+import mail from '../images/envelope.svg';
+import linkedin from '../images/linkedin.svg';
 
 const Navbar = () => (
   <div className="h-100" id="side-bar">
