@@ -38,6 +38,30 @@ const Navbar = () => (
           <NavLink className="nav-link disabled" to="/link" tabIndex="-1" aria-disabled="true">Disabled</NavLink>
         </li>
       </ul>
+
+      <div id="side-bar-socials" class="px-3 mt-3">
+        <div class="d-flex justify-content-center">
+          <a href="#">
+            <img src="./images/envelope.svg" alt="mail">
+          </a>
+          <a href="#">
+            <img src="./images/facebook.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="./images/linkedin.svg" alt="linkedin">
+          </a>
+          <a href="#">
+            <img src="./images/messenger.svg" alt="messenger">
+          </a>
+          <a href="#">
+            <img src="./images/whatsapp.svg" alt="whatsapp">
+          </a>
+          <a href="#">
+            <img src="./images/twitter.svg" alt="twitter">
+          </a>
+        </div>
+        <p>Copyright © 2022 Mubarak.</p>
+      </div>
     </nav>
   </div>
 );
