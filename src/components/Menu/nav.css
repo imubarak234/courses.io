@@ -3,12 +3,20 @@
   background-color: white;
 }
 
-#side-bar nav ul a {
-  font-size: 1.4em;
-  color: black;
+nav a {
+  width: 40%;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+#side-bar nav ul a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: #97bf0f !important;
   color: white !important;
 }
@@ -23,10 +31,6 @@ nav button {
   border: none;
 }
 
-nav a {
-  width: 40%;
-}
-
 nav button img {
   width: 65%;
 }
@@ -35,14 +39,6 @@ nav button img {
   width: 75%;
   border-right: 1px solid #e5e5e5;
   background-color: white;
-}
-
-#side-bar nav ul a {
-  font-size: 1.2em;
-  font-weight: 700;
-  color: black;
-  text-align: left;
-  text-transform: uppercase;
 }
 
 nav ul li {

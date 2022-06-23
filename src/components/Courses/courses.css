@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} 
+}
 
 #second-half-courses .card h4 {
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 #second-half-courses .card-image {
-  width:  270px;
+  width: 270px;
   height: 230px;
   object-fit: cover;
   display: flex;
@@ -55,7 +55,7 @@
   color: white;
 }
 
-#second-half-courses .carousel-indicators{
+#second-half-courses .carousel-indicators {
   display: none;
 }
 
