@@ -11,7 +11,7 @@ import linkedin from '../images/linkedin.svg';
 
 const Navbar = () => (
   <div className="h-100" id="side-bar">
-    <nav className="h-100 py-4 d-flex flex-column ms-3">
+    <nav className="h-100 pt-4 d-flex flex-column ms-3">
       <NavLink className="navbar-brand fw-normal pb-4 w-100" to="/">
         <img src={logo} alt="..." className="w-100" />
       </NavLink>
@@ -39,26 +39,26 @@ const Navbar = () => (
         </li>
       </ul>
 
-      <div id="side-bar-socials" class="px-3 mt-3">
-        <div class="d-flex justify-content-center">
-          <a href="#">
-            <img src="./images/envelope.svg" alt="mail">
-          </a>
-          <a href="#">
-            <img src="./images/facebook.svg" alt="facebook">
-          </a>
-          <a href="#">
-            <img src="./images/linkedin.svg" alt="linkedin">
-          </a>
-          <a href="#">
-            <img src="./images/messenger.svg" alt="messenger">
-          </a>
-          <a href="#">
-            <img src="./images/whatsapp.svg" alt="whatsapp">
-          </a>
-          <a href="#">
-            <img src="./images/twitter.svg" alt="twitter">
-          </a>
+      <div id="side-bar-socials" className="px-3 mt-3">
+        <div className="d-flex justify-content-center">
+          <NavLink to="#">
+            <img src={mail} alt="mail" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={facebook} alt="facebook" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={linkedin} alt="linkedin" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={messenger} alt="messenger" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={whatsapp} alt="whatsapp" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={twitter} alt="twitter" />
+          </NavLink>
         </div>
         <p>Copyright © 2022 Mubarak.</p>
       </div>
