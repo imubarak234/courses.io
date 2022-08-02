@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import store from './redux/configStore';
 import Login from './components/Login/login';
 import Register from './components/Register/register';
-import Courses from './components/Courses/courses';
+import Courses from './components/Courses/coursesContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

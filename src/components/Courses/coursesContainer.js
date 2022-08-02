@@ -3,7 +3,8 @@
 
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import { useSelector, shallowEqual, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import { select } from '../../redux/courses/coursesSelect';
 import Navbar from '../Menu/Navbar';
 import facebook from '../images/facebook.svg';
 import twitter from '../images/twitter.svg';
@@ -14,7 +15,11 @@ import './courses.css';
 
 const Courses = () => {
   const dispatch = useDispatch();
-  const select = useSelector((state) => state.select, shallowEqual);
+  // const selecting = useSelector((state) => state.select, shallowEqual);
+
+  const selectCourse = (args) => {
+    dispatch(select(args));
+  };
 
   return (
     <div className="d-flex h-100">
@@ -32,7 +37,13 @@ const Courses = () => {
             <div className="slides-inner">
               <div className="row g-4">
                 <div className="col-md-4">
-                  <div className="card bg-body rounded">
+                  <div
+                    className="card bg-body rounded"
+                    onClick={() => selectCourse('Book')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="0"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Content_team_re_6rlg.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -53,7 +64,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Budget')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Experience_design_re_ca7l.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -74,7 +91,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Maze')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Innovative_re_rr5i.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -101,7 +124,13 @@ const Courses = () => {
             <div className="slides-inner">
               <div className="row g-4">
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Books')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_mobile_analytics_72sr.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -122,7 +151,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('app')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Mobile_encryption_re_yw3o.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -143,7 +178,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Flix')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Online_test_re_kyfx.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -170,7 +211,13 @@ const Courses = () => {
             <div className="slides-inner">
               <div className="row g-4">
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Booking')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Photo_session_re_c0cp.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -191,7 +238,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card bg-body rounded">
+                  <div
+                    className="card bg-body rounded"
+                    onClick={() => selectCourse('Budgets')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Predictive_analytics_re_wxt8.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -212,7 +265,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Flixs')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_React_re_g3ui.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -239,7 +298,13 @@ const Courses = () => {
             <div className="slides-inner">
               <div className="row g-4">
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Bookers')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Reminder_re_wxwu.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -260,7 +325,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Budgeters')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Static_website_re_x70h.png')} alt="" className="img-fluid card-img-top" />
                     </div>
@@ -281,7 +352,13 @@ const Courses = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="card  bg-body rounded">
+                  <div
+                    className="card  bg-body rounded"
+                    onClick={() => selectCourse('Flixing')}
+                    onKeyDown={selectCourse('Book')}
+                    role="button"
+                    tabIndex="-1"
+                  >
                     <div className="card-image">
                       <img src={require('../images/undraw_Team_up_re_wadf.png')} alt="" className="img-fluid card-img-top" />
                     </div>
