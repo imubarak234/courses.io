@@ -67,3 +67,8 @@
   display: flex;
   justify-content: center;
 }
+
+#second-half .btn-outline-success {
+  color: #96bf02;
+  border-color: #96bf02;
+}
